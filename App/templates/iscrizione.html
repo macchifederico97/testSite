@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Iscrizione{% endblock %}
+
+{% block content %}
+<h1>Iscriviti al sito</h1>
+<form method="POST" style="max-width: 400px;">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required><br><br>
+
+  <label for="cognome">Cognome:</label><br>
+  <input type="text" id="cognome" name="cognome" required><br><br>
+
+  <button type="submit">Invia</button>
+</form>
+{% endblock %}
