@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Servizi{% endblock %}
+
+{% block content %}
+<section>
+  <h1>I nostri servizi</h1>
+  <p>Scopri i trattamenti disponibili presso il nostro studio:</p>
+</section>
+
+<section style="margin-top: 2rem;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+    <div>
+      <h3>Fisioterapia</h3>
+      <p>Trattamenti per dolori muscolari, articolari e post-trauma.</p>
+    </div>
+    <div>
+      <h3>Osteopatia</h3>
+      <p>Approccio manuale per riequilibrare il corpo e migliorare la mobilità.</p>
+    </div>
+    <div>
+      <h3>Riabilitazione</h3>
+      <p>Programmi personalizzati post-operatori o post-infortunio.</p>
+    </div>
+    <div>
+      <h3>Massoterapia</h3>
+      <p>Massaggi terapeutici per rilassamento e recupero muscolare.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}
